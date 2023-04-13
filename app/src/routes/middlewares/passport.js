@@ -1,9 +1,9 @@
 import passport from 'passport'
 import { Strategy } from 'passport-local';
 import { User } from "../../persistance/mongo-models/user-model"
-import { isValidPassword, createHash } from "../controller/bcrypt.js"
+import { isValidPassword, createHash } from "../../utils/bcrypt.js"
 import { Product } from '../../persistance/mongo-models/product-model.js'
-import { sendMail } from "../controller/nodemailer.js"
+import { sendMail } from "../utils/nodemailer.js"
 
 passport.serializeUser((user, done) => {
     done(null, user._id);
