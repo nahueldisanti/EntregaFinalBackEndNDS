@@ -5,6 +5,7 @@ import passport from "passport"
 import routes from './src/routes/routes.js'
 import { strategyLogin, strategySignUp } from "./src/routes/middlewares/passport.js"
 import { MongoClient } from "./src/persistance/db/dbConnection.js"
+import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
 
 const app = express();
 
@@ -35,14 +36,15 @@ app.use(passport.session())
 
 app.use('/', routes)
 
-MongoClient.connect();
+const DB = new MongoClient()
+DB.connect();
 
 const PORT = process.env.PORT
 
 const server = app.listen(PORT, () =>
-logger.info(`Server started on PORT http://localhost:${PORT} --${process.pid} -- at ${new Date().toLocaleString()}`)
+loggerError.info(`Server started on PORT http://localhost:${PORT} --${process.pid} -- at ${new Date().toLocaleString()}`)
 );
 
 server.on('error', (err) => {
-    logger.info('Error en el servidor:', err)
+    loggerError.info('Error en el servidor:', err)
 });

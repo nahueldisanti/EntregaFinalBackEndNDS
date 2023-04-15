@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { Schema } = require('mongoose');
 
-export const Order = mongoose.model('Order', new mongoose.Schema({
+export const order = mongoose.model('Order', new mongoose.Schema({
     numeroDeOrden: {
         type: String,
         required: true

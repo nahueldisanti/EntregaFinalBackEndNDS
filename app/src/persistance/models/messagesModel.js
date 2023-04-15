@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { Schema } = require('mongoose');
 
-export const Messages = mongoose.model('Messages', new mongoose.Schema({
+export const messages = mongoose.model('Messages', new mongoose.Schema({
     email: {
         type: String,
         required: true
