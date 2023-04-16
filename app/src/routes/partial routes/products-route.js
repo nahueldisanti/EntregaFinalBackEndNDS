@@ -1,24 +1,16 @@
-import passport from "passport";
 import { Router } from 'express';
-import { isAuth } from '../controller/isAuth.js';
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js';
-import {getProducts, getMessages} from "../business/productsController.js";
-
+import { checkToken } from '../../middleware/token.js'
+import ProductsController from '../../controllers/productsController.js'
+const productsController = new ProductsController();
 
 const productsRoute = Router()
 
-productsRoute.get('/', isAuth, (req, res) => {
-    try {
-        loggerInfo.info('Se accedió correctamente a productos')
-        const products = getProducts();
-        const messages = getMessages();
-        res.render('products', {
-            user: req.user, products, messages
-        })
-    }catch(error) {
-        loggerError.error('Error en productos: ' + error)
-        res.send('Error')
-    }
-})
+productsRoute.get('/', checkToken, productsController.getAll)
+productsRoute.get('/:id', checkToken, productsController.getProdById)
+productsRoute.post('/', checkToken, productsController.addProduct)
+productsRoute.put('/', checkToken, productsController.updateProduct)
+productsRoute.delete('/:id', checkToken, productsController.deleteProductById)
+productsRoute.get('/category/:category', checkToken, productsController.getProductByCategory)
+
 
 export default productsRoute

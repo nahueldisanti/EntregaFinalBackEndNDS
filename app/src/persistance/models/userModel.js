@@ -14,17 +14,13 @@ export const user = mongoose.model('User', new mongoose.Schema({
         type: String,
         required: true
     },
-    domicilio:{
+    address:{
         type: String,
         required: true
     },
-    tel:{
+    phone:{
         type: String,
         required: true
-    },
-    avatar:{
-        type: String,
-        required: false
     },
     email:{
         type: String,

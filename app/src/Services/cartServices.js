@@ -4,6 +4,8 @@ import CartDao from "../persistance/models/DAO/cartDao"
 const cartDao = new CartDao()
 import ProductsDao from "../persistance/models/DAO/productsDao.js"
 const prodDao = new ProductsDao();
+import AuthDao from "../persistance/models/DAO/authDao.js"
+const authDao = new AuthDao();
 
 export default class CartServices {
 
@@ -26,10 +28,15 @@ export default class CartServices {
     }
 
 
-    async createCart(data) {
+    async createCart(data, tokenHeader) {
         try{
-            const newCart = await cart(data).save()
-            return cart
+            const user = await authDao.getUserByToken(tokenHeader) 
+            cart.user = user.username
+            cart.address = user.address
+            cart.timestamp = moment().format('L LTS')
+            cart.products = []
+            const newCart = await cartDao.createCart(cart)
+            return newCart
         } catch(error) {
             loggerError.error(`No se pudo crear el nuevo carrito: ${error}`)
         }
@@ -37,7 +44,7 @@ export default class CartServices {
 
     async deleteCart(cartId) {
         try {
-            const deletedCart = await cart.findByIdAndDelete(cartId);
+            const deletedCart = await cartDao.deleteCart(cartId);
             return deletedCart
         }catch(error){
             loggerError.error(`No se pudo elimiar el nuevo carrito: ${error}`)
@@ -46,66 +53,41 @@ export default class CartServices {
 
     async getProductsInCart(cartId) {
         try{
-            const cartById = await cart.findById(cartId)
-            const products = [...cartById.productos];        
+            const cartById = await cartDao.getProductsInCart(cartId);
+            const products = cartById.products       
             return products
         } catch (error) {
             loggerError.error(`No pudimos encontrar los productos del carrito con ID: ${cartId}: ${error}`)
         }
     }
 
-    async addProductInCart(cartId, addProd) {
+    async addProductInCart(cartId, prodId, qty) {
         try {
-            const cartById = await cart.findById(cartId)
-            const existProd = cartById.products.find(product => product._is == addProd._isS);
-            if(existProd){
-                const products = cartById.products.map(product => {
-                    product.qty += addProd.qty
-                    product.totalPrice = product.qty * product.price
-                })
-                return products
-                cartById.products = products
-            } else {
-                cartById.products.push(addProd)
+            const productById = await prodDao.getProdctById(prodId);
+            if (productById.idProduct === null) {
+                logger.warn('Producto no encontrado')
             }
-            const updateCart = await cartModel.findByIdAndUpdate(idCart, cartById, {new:true})
-            return updateCart
+            const addProd = {
+                productId: prodId, 
+                name: productById.name,
+                description: productById.description,
+                category: productById.category,
+                priceUnit: productById.price,
+                qty: qty,
+                totalPrice: productById.price * qty
+            }
+            const cartUpdated = await cartDao.addProductInCart(cartId, addProd)
+            return cartUpdated
+
         }catch(error){
             loggerError.error(error)
         }
     }
 
-    async addProductInCart(cartId, addProd) {
+    async deleteProduct(cartId, productId) {
         try {
-            const cartById = await cart.findById(cartId)
-            const existProd = cartById.products.find(product => product._id == addProd._id);
-            if(existProd){
-                const products = cartById.products.map(product => {
-                    product.qty += addProd.qty
-                    product.totalPrice = product.qty * product.price
-                })
-                return products
-                cartById.products = products
-            } else {
-                cartById.products.push(addProd)
-            }
-            const updateCart = await cartModel.findByIdAndUpdate(idCart, cartById, {new:true})
-            return updateCart
-        }catch(error){
-            loggerError.error(error)
-        }
-    }
-
-    async deleteProduct(idCart, productId) {
-        try {
-            const cartById = await cart.findById(cartId)
-            const productDelete = cartById.products.findeIndex(product => product._id === productId);
-            if(productDelete != null){
-                cartById.cart.splice(productDelete, 1)
-                const updateCart = await cartModel.findByIdAndUpdate(idCart, cartById, {new:true})
-                return updateCart
-            }
-            return cartById
+            const cartUpdated = await cartDao.deleteProduct(cartId, productId)
+            return cartUpdated
         }catch(error){
             loggerError.error(error)
         }

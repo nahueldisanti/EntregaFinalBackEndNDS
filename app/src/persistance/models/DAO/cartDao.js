@@ -15,7 +15,7 @@ export default class CartDao {
 
     async getCartById(cartId){
         try {
-            const cartById = await cartModel.findById(idCart)
+            const cartById = await cartModel.findById(cartId)
             return cartById
         } catch (error) {
             loggerError.error(`Error en el carrito: ${error}`)
@@ -54,34 +54,14 @@ export default class CartDao {
     async addProductInCart(cartId, addProd) {
         try {
             const cartById = await cart.findById(cartId)
-            const existProd = cartById.products.find(product => product._is == addProd._isS);
-            if(existProd){
-                const products = cartById.products.map(product => {
-                    product.qty += addProd.qty
-                    product.totalPrice = product.qty * product.price
-                })
-                return products
-                cartById.products = products
-            } else {
-                cartById.products.push(addProd)
-            }
-            const updateCart = await cartModel.findByIdAndUpdate(idCart, cartById, {new:true})
-            return updateCart
-        }catch(error){
-            loggerError.error(error)
-        }
-    }
-
-    async addProductInCart(cartId, addProd) {
-        try {
-            const cartById = await cart.findById(cartId)
             const existProd = cartById.products.find(product => product._id == addProd._id);
             if(existProd){
                 const products = cartById.products.map(product => {
                     product.qty += addProd.qty
                     product.totalPrice = product.qty * product.price
+                    return product
                 })
-                return products
+
                 cartById.products = products
             } else {
                 cartById.products.push(addProd)

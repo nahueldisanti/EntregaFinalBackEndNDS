@@ -1,13 +1,12 @@
-import passport from "passport";
 import { Router } from 'express'
-import { isAuth } from '../controller/isAuth.js'
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { checkToken } from '../../middleware/token.js'
+import OrderController from '../../controllers/orderController.js'
+const orderController = new OrderController();
 
-import {getProducts, getMessages} from "../business/productsController.js";
 
 const orderRoute = Router ();
 
-orderRoute.post('/', isAuth, );
-orderRoute.get('/:id', isAuth, orderController.getAllOrders);
+orderRoute.post('/', checkToken, orderController.newOrder);
+orderRoute.get('/', checkToken, orderController.getAllOrders);
 
 export default orderRoute

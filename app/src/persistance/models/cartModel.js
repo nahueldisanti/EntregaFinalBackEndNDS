@@ -6,7 +6,7 @@ export const cart = mongoose.model('Cart', new mongoose.Schema({
         type: String,
         required: true
     },
-    direccion: {
+    address: {
         type: String,
         required: true
     },
@@ -15,7 +15,7 @@ export const cart = mongoose.model('Cart', new mongoose.Schema({
         required: true,
         default: Date.now
     },
-    productos:{
+    products:{
         type: Array,
         required: true
     }

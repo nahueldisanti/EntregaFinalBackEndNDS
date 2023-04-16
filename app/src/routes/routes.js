@@ -6,21 +6,14 @@ const routes = Router()
 
 import failRoute from "./partial routes/fail-route.js"
 import productsRoute from './partial routes/products-route.js'
-import infoRoute from "./partial routes/info-route.js"
-import loginRoute from "./partial routes/login-route.js"
-import logoutRoute from './partial routes/logout-route.js'
-import signupRoute from "./partial routes/signup-route.js"
 import messagesRoute from "./partial routes/messages-route.js"
 import cartRoute from "./partial routes/cart-route.js"
 import orderRoute from "./partial routes/order-routes.js"
-
+import routesAuth from "./partial routes/auth-route.js"
 
 
 routes.use('/', productsRoute);
-routes.use('/login', loginRoute);
-routes.use('/signup', signupRoute);
-routes.use('/logout', logoutRoute);
-routes.use('/info',infoRoute);
+routes.use('/auth', routesAuth);
 routes.use('/error-login',failRoute);
 routes.use('/chat', messagesRoute)
 routes.use('/cart', cartRoute)
@@ -30,7 +23,7 @@ routes.use('/order', orderRoute)
 routes.get('/*', (req, res, next) => {
     try {
     loggerWarn.warn("Ruta inexistente");
-    res.redirect('/login')
+    res.redirect('/auth')
     next();
     } catch (error) {
         loggerError.error('Error en la ruta: ' + error.message)

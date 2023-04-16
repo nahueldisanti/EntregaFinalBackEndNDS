@@ -6,28 +6,36 @@ const etherealUser = process.env.ETHEREAL_USER
 const etheralPass =  process.env.ETHERAL_PASS
 
 
-async function sendMail (body, username){
+async function sendMail(newOrder){
 
-    const mailOptions = {
-        from: "Libreria NET", 
-        to: body.correo,
-        subject: "Registro Exitoso", 
-        html: `
-        <h3>${username}</h3><br>
-        <h3>${body.names}</h3><br>
-        <h3>${body.direccion}</h3><br>
-        <h3>${body.edad}</h3><br>
-        <h3>${body.tel}</h3><br>`
-    }
+    const MAIL = process.env.ADMIN_MAIL
+    const PASS = process.env.PASS
+    const orderProducts = newOrder.products.map(product => {
+        return `
+        <h3>${product._id}</h3>
+        <h3>${product.name}</h3>
+        <h3>${product.price}</h3>`
+    })
 
     const transporter = nodemailer.createTransport({
-        host: 'smtp.ethereal.email',
+        service: 'gmail',
         port: 587,
         auth: {
-            user: etherealUser,
-            pass: etheralPass
+            user: MAIL,
+            pass: PASS
         }
     });
+
+    const mailOptions = {
+        from: MAIL,
+        to: `${orderCart.user.email}`,
+        subject: `Orden de compra N ${numOrder} exitosa`,
+        html: `
+                <h3>${newOrder.user.username} Su orden ha sido existosa</h3>
+                <h3>${orderProducts}</h3>`
+    }
+
+
     try {
         const info = await transporter.sendMail(mailOptions)
     } catch (err) {

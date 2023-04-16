@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import { isAuth } from '../controller/isAuth.js';
+import { checkToken } from '../../middleware/token.js'
 import {chatController} from "../../controllers/messegesController"
 
 const messagesRoute = Router();
 
-messagesRoute.get('/', isAuth, chatController.getMesseges);
-messagesRoute.get('/:email', isAuth, chatController.getMessagesByUser);
-messagesRoute.post('/', isAuth, chatController.saveMessages);
+messagesRoute.get('/', checkToken, chatController.getMesseges);
+messagesRoute.get('/:email', checkToken, chatController.getMessagesByUser);
+messagesRoute.post('/', checkToken, chatController.saveMessages);
 
-export default messagesRoute
+module.exports = { messagesRoute }

@@ -7,11 +7,17 @@ import { strategyLogin, strategySignUp } from "./src/routes/middlewares/passport
 import { MongoClient } from "./src/persistance/db/dbConnection.js"
 import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
 import {createServer} from 'http';
+import { Server } from 'socket.io'
+import MessagesServices from '../Services/messageServices.js'
+const messagesServices = new MessagesServices()
 
 const app = express();
 
-passport.use('login', strategyLogin);
-passport.use('signup', strategySignUp);
+//passport.use('login', strategyLogin);
+//passport.use('signup', strategySignUp);
+
+//app.use(passport.initialize())
+//app.use(passport.session())
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views');
@@ -19,6 +25,7 @@ app.set('views', './src/views');
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(express.static('./public'))
+app.use('/', routes)
 
 app.use(session({
     secret: process.env.SECRET,
@@ -32,15 +39,11 @@ app.use(session({
     saveUninitialized: false
 }));
 
-app.use(passport.initialize())
-app.use(passport.session())
-
-app.use('/', routes)
-
 const DB = new MongoClient()
 DB.connect();
 
 const PORT = process.env.PORT
+
 
 const httpServer = createServer(app);
 
@@ -52,4 +55,15 @@ server.on('error', (err) => {
     loggerError.info('Error en el servidor:', err)
 });
 
-export default httpServer
+const io = new Server(httpServer)
+
+io.on('connection', async (socket) => {
+
+    socket.emit('messages', await messagesServices.getAllMessages())
+    
+    socket.on('newMessage', async data => {
+        await messagesServices.saveMessage(data);
+        
+        io.sockets.emit('messages', await messagesServices.getAllMessages())
+    });
+})

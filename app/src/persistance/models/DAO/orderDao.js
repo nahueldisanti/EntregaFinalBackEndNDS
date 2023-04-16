@@ -7,18 +7,16 @@ export default class OrderDao {
         try {
             const newOrder = await order(data).save()
             return newOrder
-
         } catch(error) {
             loggerError.error(error)
         }
     }
 
-    async getOrderById(id) {
-        try {
-            const orderById = await order.findById(id);
-            return orderById
-
-        } catch(error) {
+    async getAllOrders() {
+        try{
+            const allOrders = await order.find({})
+            return allOrders
+        }catch (error) {
             loggerError.error(error)
         }
     }

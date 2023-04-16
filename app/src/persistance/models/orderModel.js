@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 const { Schema } = require('mongoose');
 
 export const order = mongoose.model('Order', new mongoose.Schema({
-    numeroDeOrden: {
+    numberOrder: {
         type: String,
         required: true
     },
-    estadoDeOrden: {
+    orderState: {
         type: String,
         required: true
     },
@@ -19,11 +19,11 @@ export const order = mongoose.model('Order', new mongoose.Schema({
         type: String,
         required: true
     },
-    direccion: {
+    address: {
         type: String, 
         required: true
     },
-    productos:{
+    products:{
         type: Array,
         required: true
     }
