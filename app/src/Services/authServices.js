@@ -2,6 +2,7 @@ import AuthDao from '../persistance/models/DAO/authDao.js'
 const authDao = new AuthDao();
 import bcrypt from 'bcrypt'
 import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
+import sendMailRegister from '../utils/nodemailerNewRegist.js';
 
 export default class AuthServices {
 
@@ -18,7 +19,8 @@ export default class AuthServices {
                     email: info.email,
                     password: encryptedPassword
                 }
-                const userAdded = await authDao.register(newUser) 
+                const userAdded = await authDao.register(newUser)
+                sendMailRegister(newUser)
                 return userAdded
             } else {
                 loggerWarn.warn("El usuario ya existe")
