@@ -1,7 +1,7 @@
 import user from '../userModel.js'
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../../../utils/log4js.js'
 import 'dotenv/config'
 
 export default class AuthDao {

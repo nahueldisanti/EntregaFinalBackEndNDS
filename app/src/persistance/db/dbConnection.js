@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-import { loggerError, loggerInfo } from "../../controller/log4js.js";
+import { loggerError, loggerInfo } from "../../utils/log4js.js";
 import 'dotenv/config'
 
 
@@ -7,7 +7,6 @@ const connectionStringUrl = process.env.MONGODB;
 
 class MongoClient {
     constructor() {
-        super();
         this.connected = false
         this.client = mongoose
     }

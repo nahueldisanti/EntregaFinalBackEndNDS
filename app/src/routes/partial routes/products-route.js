@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { checkToken } from '../../middleware/token.js'
+import checkToken from '../../middleware/token.js'
 import ProductsController from '../../controllers/productsController.js'
 const productsController = new ProductsController();
 

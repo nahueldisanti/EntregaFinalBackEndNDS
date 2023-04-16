@@ -1,6 +1,6 @@
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
 import moment from 'moment'
-import CartDao from "../persistance/models/DAO/cartDao"
+import CartDao from "../persistance/models/DAO/cartDao.js"
 const cartDao = new CartDao()
 import ProductsDao from "../persistance/models/DAO/productsDao.js"
 const prodDao = new ProductsDao();

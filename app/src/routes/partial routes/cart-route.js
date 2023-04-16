@@ -1,15 +1,16 @@
 import { Router } from 'express';
-import { checkToken } from '../../middleware/token.js'
-import {cartController} from "../../controllers/cartController"
+import checkToken from '../../middleware/token.js'
+import CartController from '../../controllers/cartController.js'
+const cartController = new CartController()
 
 const cartRoute = Router();
 
-cartRouter.get('/', checkToken, cartController.getCart)
-cartRouter.post('/', checkToken, cartControllers.createCart)
-cartRouter.delete('/:id', checkToken, cartController.deleteCart)
-cartRouter.get('/:id/products', checkToken, cartControllers.productsinCart)
-cartRouter.post('/:id/products',checkToken, cartControllers.addProductInCart)
-cartRouter.delete('/:idcart/products/:idprod', checkToken, cartControllers.deleteProductInCart)
+cartRoute.get('/', checkToken, cartController.getAllCarts)
+cartRoute.post('/', checkToken, cartController.createCart)
+cartRoute.delete('/:id', checkToken, cartController.deleteCart)
+cartRoute.get('/:id/products', checkToken, cartController.productsinCart)
+cartRoute.post('/:id/products',checkToken, cartController.addProductInCart)
+cartRoute.delete('/:idcart/products/:idprod', checkToken, cartController.deleteProductInCart)
 
 export default cartRoute
 

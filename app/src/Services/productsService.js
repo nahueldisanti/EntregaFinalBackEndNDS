@@ -1,8 +1,6 @@
-import product from "../persistance/models/productsModel.js"
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
 import ProductsDao from "../persistance/models/DAO/productsDao.js"
 import moment from 'moment'
-
 const productDao = new ProductsDao()
 
 export default class ProductServices {

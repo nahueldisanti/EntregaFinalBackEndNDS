@@ -1,4 +1,4 @@
-import { loggerInfo, loggerError, loggerWarn } from '../../../utils/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
 import moment from 'moment'
 import OrderDao from '../persistance/models/DAO/orderDao.js'
 const orderDao = new OrderDao();
@@ -6,7 +6,7 @@ import AuthDao from '../persistance/models/DAO/authDao.js'
 const authDao = new AuthDao();
 import CartDao from '../persistance/models/DAO/cartDao.js'
 const cartDao = new CartDao();
-import * as nodemailer from '../utils/nodemailer.js'
+import sendMail from '../utils/nodemailers.js'
 
 
 export default class OrderServices {
@@ -31,7 +31,7 @@ export default class OrderServices {
                     products: cartById.products 
                 }
                 const createdOrder = await orderDao.generateOrder(newOrder);
-                await nodemailer.sendMail(newOrder)
+                sendMail(newOrder);
                 return createdOrder
             } else {
                 loggerWarn.warn('El carrito no pudo checkearse')

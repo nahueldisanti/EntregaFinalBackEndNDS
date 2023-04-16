@@ -1,0 +1,11 @@
+[2023-04-16T20:25:02.854] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
+    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
+    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
+    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:43:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)

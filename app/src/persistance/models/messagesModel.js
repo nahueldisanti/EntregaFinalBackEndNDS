@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
-const { Schema } = require('mongoose');
+import mongoose from 'mongoose';
+const { Schema } = mongoose;
 
-export const messages = mongoose.model('Messages', new mongoose.Schema({
+const messages = mongoose.model('Messages', new mongoose.Schema({
     email: {
         type: String,
         required: true
@@ -16,3 +16,5 @@ export const messages = mongoose.model('Messages', new mongoose.Schema({
         required: true
     }
 }));
+
+export default messages

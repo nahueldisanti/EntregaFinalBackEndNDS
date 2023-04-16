@@ -1,12 +1,12 @@
 import dotenv from 'dotenv'
 import nodemailer from 'nodemailer'
-import { loggerInfo, loggerError} from "./log4js"
+import { loggerInfo, loggerError} from "./log4js.js"
 
 const etherealUser = process.env.ETHEREAL_USER
 const etheralPass =  process.env.ETHERAL_PASS
 
 
-async function sendMail(newOrder){
+export default async function sendMail(newOrder){
 
     const MAIL = process.env.ADMIN_MAIL
     const PASS = process.env.PASS
@@ -43,4 +43,3 @@ async function sendMail(newOrder){
     }
 }
 
-module.exports = { sendMail }

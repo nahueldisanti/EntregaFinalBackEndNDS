@@ -1,4 +1,4 @@
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
 import MessagesDao from '../persistance/models/DAO/messageDao.js'
 import moment from 'moment'
 

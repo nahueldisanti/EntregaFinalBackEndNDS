@@ -1,7 +1,7 @@
 import AuthDao from '../persistance/models/DAO/authDao.js'
 const authDao = new AuthDao();
 import bcrypt from 'bcrypt'
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
 
 export default class AuthServices {
 

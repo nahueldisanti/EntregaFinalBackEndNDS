@@ -1,4 +1,4 @@
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import { loggerInfo, loggerError, loggerWarn } from '../../../utils/log4js.js'
 import messages from "../messagesModel.js"
 
 export default class MessagesDao {

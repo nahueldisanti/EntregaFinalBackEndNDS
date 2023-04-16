@@ -1,5 +1,5 @@
-import product from "../persistance/models/productsModel.js"
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import product from "../productsModel.js"
+import { loggerInfo, loggerError, loggerWarn } from '../../../utils/log4js.js'
 
 export default class ProductsDao {
 

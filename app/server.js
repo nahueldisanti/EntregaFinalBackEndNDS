@@ -3,12 +3,12 @@ import session from "express-session"
 import 'dotenv/config'
 import passport from "passport"
 import routes from './src/routes/routes.js'
-import { strategyLogin, strategySignUp } from "./src/routes/middlewares/passport.js"
-import { MongoClient } from "./src/persistance/db/dbConnection.js"
-import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+//import { strategyLogin, strategySignUp } from "./src/routes/middlewares/passport.js"
+import MongoClient from "./src/persistance/db/dbConnection.js"
+import { loggerInfo, loggerError, loggerWarn } from './src/utils/log4js.js'
 import {createServer} from 'http';
 import { Server } from 'socket.io'
-import MessagesServices from '../Services/messageServices.js'
+import MessagesServices from './src/Services/messageServices.js'
 const messagesServices = new MessagesServices()
 
 const app = express();
@@ -20,7 +20,7 @@ const app = express();
 //app.use(passport.session())
 
 app.set('view engine', 'ejs');
-app.set('views', './src/views');
+app.set('views', './public/views');
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
