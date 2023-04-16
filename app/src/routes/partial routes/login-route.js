@@ -1,6 +1,6 @@
 import passport from "passport";
 import { Router } from 'express'
-import { isAuth } from '../controller/isAuth.js'
+import { isAuth } from '../../utils/isAuth.js'
 import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
 
 const loginRoute = Router()

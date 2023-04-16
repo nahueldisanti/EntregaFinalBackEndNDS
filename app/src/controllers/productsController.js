@@ -1,7 +1,5 @@
 import ProductServices from "../Services/productsService";
 import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
-const
-
 productsServices = new ProductsServices();
 
 export default class ProductsController {

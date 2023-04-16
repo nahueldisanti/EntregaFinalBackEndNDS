@@ -1,21 +1,24 @@
-import { cart } from "../cartModel.js" 
 import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import moment from 'moment'
+import CartDao from "../persistance/models/DAO/cartDao"
+const cartDao = new CartDao()
+import ProductsDao from "../persistance/models/DAO/productsDao.js"
+const prodDao = new ProductsDao();
 
-
-export default class CartDao {
+export default class CartServices {
 
     async getAllCarts() {
         try {
-            const carts = await cartModel.find({})
+            const carts = await cartDao.getAllCarts()
             return carts
         } catch (error) {
-            loggerError.error(`Error en el carrito: ${error}`)
+            loggerError.error(error)
         }
     }
 
     async getCartById(cartId){
         try {
-            const cartById = await cartModel.findById(idCart)
+            const cartById = await cartDao.getCartById(cartId);
             return cartById
         } catch (error) {
             loggerError.error(`Error en el carrito: ${error}`)

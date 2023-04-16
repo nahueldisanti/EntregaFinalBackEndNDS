@@ -8,6 +8,6 @@ import {getProducts, getMessages} from "../business/productsController.js";
 const orderRoute = Router ();
 
 orderRoute.post('/', isAuth, );
-orderRoute.get('/', isAuth, orderController.getAllOrders);
+orderRoute.get('/:id', isAuth, orderController.getAllOrders);
 
 export default orderRoute

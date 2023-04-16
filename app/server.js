@@ -6,6 +6,7 @@ import routes from './src/routes/routes.js'
 import { strategyLogin, strategySignUp } from "./src/routes/middlewares/passport.js"
 import { MongoClient } from "./src/persistance/db/dbConnection.js"
 import { loggerInfo, loggerError, loggerWarn } from '../controller/log4js.js'
+import {createServer} from 'http';
 
 const app = express();
 
@@ -41,10 +42,14 @@ DB.connect();
 
 const PORT = process.env.PORT
 
-const server = app.listen(PORT, () =>
-loggerError.info(`Server started on PORT http://localhost:${PORT} --${process.pid} -- at ${new Date().toLocaleString()}`)
+const httpServer = createServer(app);
+
+const server = httpServer.listen(PORT, () =>
+    loggerError.info(`Server started on PORT http://localhost:${PORT} --${process.pid} -- at ${new Date().toLocaleString()}`)
 );
 
 server.on('error', (err) => {
     loggerError.info('Error en el servidor:', err)
 });
+
+export default httpServer
