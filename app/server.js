@@ -20,7 +20,8 @@ const app = express();
 //app.use(passport.session())
 
 app.set('view engine', 'ejs');
-app.set('views', './public/views');
+app.set('views', './public/views/partials');
+app.set('views', path.join(__dirname, './public/views/partials'));
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
