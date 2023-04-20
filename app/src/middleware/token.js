@@ -5,6 +5,7 @@ const checkToken = (req, res, next ) => {
 
     let token = req.cookies || req.headers.authorization || req.body.token || req.query.token || req.headers['x-access-token'];
     if (!token){
+        res.redirect('/auth/login')
         return res.json({
             message: 'No hay token proporcionado'
         })

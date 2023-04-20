@@ -12,7 +12,7 @@
         <h1>Registre un nuevo usuario</h1>
         <div class="row">
             <div class="col-sm-8 col-lg-4 col-md-6">
-                <form class="form" action="/signup" method="post" role="form" autocomplete="off">
+                <form class="form" action="/auth-/register" method="post" role="form" autocomplete="off">
                     <legend>Ingrese sus datos:</legend>
                     <div class="form-group mt-4">
                         <input id="username" name='name' placeholder="Nombre y Apellido" class="form-control" type="text" required autofocus>
@@ -49,7 +49,7 @@
                     <div class="form-group">
                         <div class="d-grid gap-2">
                             <input class="btn btn-danger" type="submit" value="Registrar">
-                            <a class="btn btn-outline-danger" href="/login">Ya tengo cuenta</a>
+                            <a class="btn btn-outline-danger" href="/auth/login">Ya tengo cuenta</a>
                         </div>
                     </div>
                 </form>
