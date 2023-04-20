@@ -9,6 +9,7 @@ import { loggerInfo, loggerError, loggerWarn } from './src/utils/log4js.js'
 import {createServer} from 'http';
 import { Server } from 'socket.io'
 import MessagesServices from './src/Services/messageServices.js'
+import path from 'path'
 const messagesServices = new MessagesServices()
 
 const app = express();
