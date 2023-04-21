@@ -6,8 +6,8 @@ export default class ProductsController {
 
     async getAll(req, res) {
         try{
-            const products = await productsServices.getAll()
-            res.json(products)
+            const products = await productsServices.getAllProducts()
+            res.render('products', products)
         }catch(error) {
             loggerError.error (error)
         }

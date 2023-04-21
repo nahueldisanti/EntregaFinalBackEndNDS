@@ -1,6 +1,7 @@
 import mongoose from "mongoose"
 import { loggerError, loggerInfo } from "../../utils/log4js.js";
-import 'dotenv/config'
+import dotenv from 'dotenv'
+dotenv.config()
 
 
 const connectionStringUrl = process.env.MONGODB;

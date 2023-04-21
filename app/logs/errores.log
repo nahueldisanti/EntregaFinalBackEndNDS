@@ -9,3 +9,102 @@
     at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
     at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:43:4
     at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+[2023-04-21T00:52:14.443] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
+    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
+    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
+    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+[2023-04-21T01:04:54.776] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
+    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
+    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
+    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+[2023-04-21T01:09:20.766] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
+    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
+    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
+    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+[2023-04-21T01:11:41.403] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
+    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
+    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:17:31)
+    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+[2023-04-21T01:12:17.075] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
+    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
+    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:18:31)
+    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+[2023-04-21T01:25:11.625] [ERROR] categError - TypeError: productsServices.getAll is not a function
+    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
+[2023-04-21T01:26:25.864] [ERROR] categError - TypeError: productsServices.getAll is not a function
+    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
+[2023-04-21T01:27:02.958] [ERROR] categError - TypeError: productsServices.getAll is not a function
+    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
+[2023-04-21T01:27:09.498] [ERROR] categError - TypeError: productsServices.getAll is not a function
+    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)

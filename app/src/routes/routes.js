@@ -1,6 +1,7 @@
-
+import isAuth from "../middleware/isAuth.js"
 import { Router } from 'express'
 import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
+
 
 const routes = Router()
 
@@ -12,18 +13,21 @@ import orderRoute from "./partial routes/order-routes.js"
 import routesAuth from "./partial routes/auth-route.js"
 
 
-routes.use('/', productsRoute);
+routes.use('/products',isAuth, productsRoute);
 routes.use('/auth', routesAuth);
-//routes.use('/error-login',failRoute);
-routes.use('/chat', messagesRoute)
-routes.use('/cart', cartRoute)
-routes.use('/order', orderRoute)
+routes.use('/chat',isAuth, messagesRoute)
+routes.use('/cart',isAuth, cartRoute)
+routes.use('/order',isAuth, orderRoute)
 
+routes.get('/', (req, res) => {
+    loggerInfo.info(`Se intentó acceder a ${req.baseUrl} con método ${req.method} exitosamente, REDIRIGIENDO A LOGIN`);
+    res.redirect('/auth/login')
+})
 
-routes.get('/*', (req, res, next) => {
+routes.get('*', (req, res, next) => {
     try {
     loggerWarn.warn("Ruta inexistente");
-    res.redirect('/auth')
+    res.redirect('/auth/login')
     next();
     } catch (error) {
         loggerError.error('Error en la ruta: ' + error.message)
