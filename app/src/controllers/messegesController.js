@@ -8,6 +8,7 @@ export default class MessagesController {
         try{
             const allMessages = await messagesServices.getAllMessages();
             res.json(allMessages);
+            return res.render('chats.ejs', {allMesseges})
 
         }catch(error){
             loggerError.error(error)
