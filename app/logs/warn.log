@@ -648,3 +648,77 @@
 [2023-04-21T03:00:52.649] [WARN] categWarn - Ruta inexistente
 [2023-04-21T03:00:52.654] [WARN] categWarn - Ruta inexistente
 [2023-04-21T16:39:55.982] [WARN] categWarn - Ruta inexistente
+[2023-04-23T21:23:05.543] [WARN] categWarn - Ruta inexistente
+[2023-04-23T21:27:56.772] [WARN] categWarn - Ruta inexistente
+[2023-04-23T21:34:35.561] [WARN] categWarn - Ruta inexistente
+[2023-04-24T01:04:48.597] [WARN] categWarn - Ruta inexistente
+[2023-04-24T01:25:31.729] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T01:25:43.137] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T02:07:01.755] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T02:08:21.676] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T02:15:36.371] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T02:16:22.020] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T11:58:25.899] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T12:10:24.585] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T12:53:08.688] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T13:16:35.386] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T13:16:35.613] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T14:19:52.282] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T14:20:35.826] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T14:25:20.014] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:19:18.397] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:19:24.162] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:30:15.542] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:32:13.113] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:32:13.313] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:36:14.913] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:36:15.077] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:36:43.687] [WARN] categWarn - Ruta inexistente error en la ruta
+[2023-04-24T15:37:44.027] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:39:46.460] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:40:24.560] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:41:19.803] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:41:57.400] [WARN] categWarn - Route: /auth/ 404 Not Found Method: GET 
+[2023-04-24T15:49:02.737] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:49:10.608] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:49:34.806] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:50:03.386] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T15:50:43.652] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T15:54:10.225] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T15:54:39.790] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T15:57:05.287] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:01:40.641] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:06:14.811] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:24:14.501] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:33:06.366] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:41:04.733] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:49:39.068] [WARN] categWarn - Route: /auth 404 Not Found Method: GET 
+[2023-04-24T16:53:15.033] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:53:35.594] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:55:08.306] [WARN] categWarn - Route: /auth/products 404 Not Found Method: GET 
+[2023-04-24T16:55:24.819] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:56:03.282] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-24T16:57:50.362] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-24T17:51:11.366] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-24T18:55:16.960] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-24T18:55:37.831] [WARN] categWarn - Usuario no encontrado: jorgito
+[2023-04-24T18:55:41.946] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-25T00:46:25.767] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-25T00:47:17.565] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+
+[2023-04-25T00:54:35.643] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-25T01:52:34.496] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-25T01:53:04.191] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-25T01:53:40.167] [WARN] categWarn - Route: /login 404 Not Found Method: GET 
+[2023-04-25T01:54:26.877] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:05:20.292] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:05:23.957] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:05:30.770] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:05:52.702] [WARN] categWarn - Route: /messages 404 Not Found Method: GET 
+[2023-04-25T02:06:06.052] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:06:32.970] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:06:43.111] [WARN] categWarn - Route: /auth/eregister 404 Not Found Method: GET 
+[2023-04-25T02:07:04.933] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:07:26.651] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:14:09.142] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-25T02:14:11.617] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 

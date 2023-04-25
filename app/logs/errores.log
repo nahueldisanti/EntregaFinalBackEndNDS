@@ -108,3 +108,150 @@
     at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
     at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
     at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
+[2023-04-23T21:32:46.647] [ERROR] categError - CastError: Cast to string failed for value "{ username: 'pablo10' }" (type Object) at path "username" for model "User"
+    at model.Query.exec (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:4933:21)
+    at Query.then (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:5032:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: `"{ username: 'pablo10' }"`,
+  kind: 'string',
+  value: { username: 'pablo10' },
+  path: 'username',
+  reason: null,
+  valueType: 'Object'
+}
+[2023-04-23T21:37:19.874] [ERROR] categError - CastError: Cast to string failed for value "{ username: 'ndisanti' }" (type Object) at path "username" for model "User"
+    at model.Query.exec (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:4933:21)
+    at Query.then (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:5032:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: `"{ username: 'ndisanti' }"`,
+  kind: 'string',
+  value: { username: 'ndisanti' },
+  path: 'username',
+  reason: null,
+  valueType: 'Object'
+}
+[2023-04-24T00:22:33.254] [ERROR] categError - ReferenceError: res is not defined
+    at Strategy._verify (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/registerController.js:46:9)
+    at Strategy.authenticate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
+[2023-04-24T01:41:05.065] [ERROR] categError - ReferenceError: Cannot access 'user' before initialization
+    at AuthDao.register (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/authDao.js:29:26)
+    at Strategy._verify (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/registerController.js:79:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-24T01:41:58.985] [ERROR] categError - ReferenceError: Cannot access 'user' before initialization
+    at AuthDao.register (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/authDao.js:29:26)
+    at Strategy._verify (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/registerController.js:79:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-24T01:46:24.495] [ERROR] categError - Error: User validation failed: email: Path `email` is required., address: Path `address` is required., phone: Path `phone` is required.
+    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:790:19)
+    at inspect (node:internal/util/inspect:350:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
+    at Object.format (node:internal/util/inspect:2098:10)
+    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    email: ValidatorError: Path `email` is required.
+        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    address: ValidatorError: Path `address` is required.
+        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'address',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    phone: ValidatorError: Path `phone` is required.
+        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'phone',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed'
+}
+[2023-04-24T01:47:58.758] [ERROR] categError - Error: User validation failed: email: Path `email` is required.
+    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:790:19)
+    at inspect (node:internal/util/inspect:350:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
+    at Object.format (node:internal/util/inspect:2098:10)
+    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    email: ValidatorError: Path `email` is required.
+        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed'
+}
+[2023-04-24T18:55:37.842] [ERROR] categError - Error en el login
+[2023-04-25T00:46:18.178] [ERROR] categError - Contraseña invalida
+[2023-04-25T00:46:18.191] [ERROR] categError - Error en el login
+[2023-04-25T00:47:41.947] [ERROR] categError - Contraseña invalida
+[2023-04-25T00:47:41.959] [ERROR] categError - Error en el login
+[2023-04-25T00:48:31.457] [ERROR] categError - Contraseña invalida
+[2023-04-25T00:48:31.467] [ERROR] categError - Error en el login
+[2023-04-25T02:05:43.834] [ERROR] categError - Error en el carrito: ReferenceError: cartModel is not defined
+[2023-04-25T02:06:05.879] [ERROR] categError - ReferenceError: Cannot access 'messages' before initialization
+    at MessagesDao.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/messageDao.js:8:30)
+    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:11:50)
+    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:56)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
+[2023-04-25T02:06:05.880] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'length')
+    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:12:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:33)
+[2023-04-25T02:06:05.881] [ERROR] categError - ReferenceError: allMesseges is not defined
+    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:11:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -17,7 +17,7 @@ export default class AuthDao {
 
     async userExistsByUsername(username) {
         try {
-            const userFound = await user.findOne({ username:username })
+            const userFound = await user.findOne({ username: username })
             return userFound
         } catch (error) {
             loggerError.error(error)
@@ -26,8 +26,8 @@ export default class AuthDao {
 
     async register(data) {
         try {
-            const user = await user.create(data)
-            return user
+            const userCreated = await user.create(data)
+            return userCreated
         } catch (error) {
             loggerError.error(error)
         }

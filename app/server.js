@@ -12,29 +12,48 @@ import { Server } from 'socket.io'
 import MessagesServices from './src/Services/messageServices.js'
 import path from 'path'
 const messagesServices = new MessagesServices()
+import MongoStore from 'connect-mongo'
 
-import strategyLogin from './src/controllers/loginController.js'
-import strategySignUp from './src/controllers/registerController.js'
+
+import strategyLogin from "./src/controllers/loginController.js";
+import strategySignUp from "./src/controllers/registerController.js";
 
 const app = express();
 
+// app.use(session({
+//     store: MongoStore.create({
+//         mongoUrl: process.env.MONGODB,
+//         useNewUrlParser:true,
+//         udeUnifiedTopology: true
+//     }),
+//     secret: process.env.SECRET,
+//     cookie: {
+//         httpOnly: false,
+//         secure: false,
+//         maxAge: Number(process.env.TIEMPO_EXPIRACION)
+//     },
+//     rolling: false,
+//     resave: false,
+//     saveUninitialized: false
+// }));
+
 app.use(session({
     secret: process.env.SECRET,
-    // cookie: {
-    //     httpOnly: false,
-    //     secure: false,
-    //     maxAge: Number(process.env.TIEMPO_EXPIRACION)
-    // },
+    cookie: {
+        httpOnly: false,
+        secure: false,
+        maxAge: Number(process.env.TIEMPO_EXPIRACION)
+    },
     rolling: true,
     resave: true,
     saveUninitialized: false
 }));
 
-passport.use('login', strategyLogin);
-passport.use('register', strategySignUp);
-
 app.use(passport.initialize())
 app.use(passport.session())
+
+passport.use('login', strategyLogin);
+passport.use('register', strategySignUp);
 
 app.set('view engine', 'ejs');
 app.set('views', path.join('./public/views/pages'));

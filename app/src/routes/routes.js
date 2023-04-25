@@ -1,6 +1,10 @@
 import isAuth from "../middleware/isAuth.js"
 import { Router } from 'express'
 import { loggerInfo, loggerError, loggerWarn } from '../utils/log4js.js'
+import passport from 'passport'
+import session from "express-session"
+import dotenv from 'dotenv'
+dotenv.config();
 
 
 const routes = Router()
@@ -21,14 +25,13 @@ routes.use('/order',isAuth, orderRoute)
 
 routes.get('/', (req, res) => {
     loggerInfo.info(`Se intentó acceder a ${req.baseUrl} con método ${req.method} exitosamente, REDIRIGIENDO A LOGIN`);
-    res.redirect('/auth/login')
+    res.redirect('/products')
 })
 
 routes.get('*', (req, res, next) => {
     try {
-    loggerWarn.warn("Ruta inexistente");
-    res.redirect('/auth/login')
-    next();
+    loggerWarn.warn(`Route: ${req.path} 404 Not Found Method: ${req.method} `);
+    res.render('errorPage')
     } catch (error) {
         loggerError.error('Error en la ruta: ' + error.message)
         res.send('Error')
