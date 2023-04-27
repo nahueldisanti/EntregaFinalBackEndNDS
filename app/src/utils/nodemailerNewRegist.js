@@ -28,6 +28,7 @@ export default async function sendMailRegister(newRegister){
 
     try {
         const info = await transporter.sendMail(mailOptions)
+        return info
     } catch (err) {
         loggerError.error (err);
     }

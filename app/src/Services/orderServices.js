@@ -15,7 +15,6 @@ export default class OrderServices {
         try{
             const cartByUsername = await cartDao.getCartByUsername(currentSession);
             const cart = cartByUsername[0]
-            console.log(`Cart By Username:${cartByUsername}`)
             const newOrder = {
                 orderState: 'Generada',
                 timestamp: moment().format('MMMM Do YYYY, h:mm:ss a'),

@@ -25,8 +25,8 @@ async (req, username, password, done) => {
                 phone: req.body.phone, 
             };
             await authDao.register(newUser);
-            return done(null, newUser);
             sendMailRegister(newUser);
+            return done(null, newUser);
         }
     } catch (err) {
         console.log('Error in SignUp: ' + err);

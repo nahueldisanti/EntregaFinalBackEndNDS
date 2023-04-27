@@ -10,7 +10,7 @@ export default async function sendMail(newOrder){
         return `
         <h3>${product._id}</h3>
         <h3>${product.name}</h3>
-        <h3>${product.price}</h3>`
+        <h3>${product.unitePrice}</h3>`
     })
 
     const transporter = nodemailer.createTransport({
@@ -24,8 +24,8 @@ export default async function sendMail(newOrder){
 
     const mailOptions = {
         from: MAIL,
-        to: `${orderCart.user.email}`,
-        subject: `Orden de compra N ${numOrder} exitosa`,
+        to: `${newOrder.user.email}`,
+        subject: `Orden exitosa`,
         html: `
                 <h3>${newOrder.user.username} Su orden ha sido existosa</h3>
                 <h3>${orderProducts}</h3>`
@@ -34,6 +34,7 @@ export default async function sendMail(newOrder){
 
     try {
         const info = await transporter.sendMail(mailOptions)
+        return info
     } catch (err) {
         loggerError.error (err);
     }
