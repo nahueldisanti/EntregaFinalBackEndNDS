@@ -722,3 +722,39 @@
 [2023-04-25T02:07:26.651] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
 [2023-04-25T02:14:09.142] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
 [2023-04-25T02:14:11.617] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-26T15:41:33.558] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T15:41:53.420] [WARN] categWarn - Usuario no encontrado: ndisanti
+[2023-04-26T15:42:13.707] [WARN] categWarn - Usuario no encontrado: jorgito
+[2023-04-26T15:44:11.741] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T15:44:24.248] [WARN] categWarn - Usuario no encontrado: ndisanti
+[2023-04-26T15:50:04.960] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T16:25:22.067] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-26T16:25:24.972] [WARN] categWarn - Route: /api/productos/editar/6449789a2ce65788b5784b50 404 Not Found Method: GET 
+[2023-04-26T16:25:28.086] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T16:27:46.284] [WARN] categWarn - Route: /api/carrito/producto/6449789a2ce65788b5784b50 404 Not Found Method: GET 
+[2023-04-26T17:25:10.707] [WARN] categWarn - Route: /product 404 Not Found Method: GET 
+[2023-04-26T17:45:43.545] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T17:53:06.958] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T17:54:43.099] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-26T17:56:20.565] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T17:57:13.101] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-26T17:57:31.207] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T19:18:08.712] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T19:18:43.075] [WARN] categWarn - Route: /cart/create 404 Not Found Method: GET 
+[2023-04-26T19:21:24.227] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T19:21:50.334] [WARN] categWarn - Route: /cart/create 404 Not Found Method: GET 
+[2023-04-26T19:28:18.051] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-26T19:33:51.885] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T19:34:16.822] [WARN] categWarn - Route: /app/public/views/pages/favicon.ico 404 Not Found Method: GET 
+[2023-04-26T19:47:28.428] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T20:06:55.052] [WARN] categWarn - Route: /js/messagesClient.js 404 Not Found Method: GET 
+[2023-04-26T20:06:59.540] [WARN] categWarn - Route: /js/messagesClient.js 404 Not Found Method: GET 
+[2023-04-26T20:10:38.029] [WARN] categWarn - Route: /js/messagesClient.js 404 Not Found Method: GET 
+[2023-04-26T20:10:49.270] [WARN] categWarn - Route: /js/messagesClient.js 404 Not Found Method: GET 
+[2023-04-26T20:31:43.727] [WARN] categWarn - Route: /api/carrito/producto/6449789a2ce65788b5784b50 404 Not Found Method: GET 
+[2023-04-26T20:31:55.714] [WARN] categWarn - Route: /api/carrito/producto/64498b5bad28dddd21dd29a0 404 Not Found Method: GET 
+[2023-04-26T20:32:36.962] [WARN] categWarn - Route: /api/carrito/producto/6449789a2ce65788b5784b50 404 Not Found Method: GET 
+[2023-04-26T21:14:55.482] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 
+[2023-04-26T21:19:46.610] [WARN] categWarn - Route: /cart/6449789a2ce65788b5784b50 404 Not Found Method: GET 
+[2023-04-26T21:47:39.496] [WARN] categWarn - Usuario no encontrado: jorgito
+[2023-04-26T22:02:14.315] [WARN] categWarn - Route: /favicon.ico 404 Not Found Method: GET 

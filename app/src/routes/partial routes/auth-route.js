@@ -26,10 +26,7 @@ routesAuth.get('/error-signup', (req, res) => {
     }
 })
 
-routesAuth.post('/register', passport.authenticate('register', {failureRedirect: '/auth/error-signup'}), (req, res) => {
-    loggerInfo.info('Acceso permitido')
-    res.redirect('/products')
-})
+routesAuth.post('/register', passport.authenticate('register', { failureRedirect: '/auth/error-signup', successRedirect: '/cart/create' }))
 
 //LOG IN
 

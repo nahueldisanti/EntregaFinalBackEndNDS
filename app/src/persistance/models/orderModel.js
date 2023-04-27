@@ -2,16 +2,12 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const order = mongoose.model('Order', new mongoose.Schema({
-    numberOrder: {
-        type: String,
-        required: true
-    },
     orderState: {
         type: String,
         required: true
     },
     timestamp: {
-        type: Date,
+        type: String,
         required: true,
         default: Date.now
     },

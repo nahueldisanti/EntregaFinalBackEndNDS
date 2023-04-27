@@ -8,7 +8,7 @@ const messages = mongoose.model('Messages', new mongoose.Schema({
     },
     timestamp: {
         type: Date,
-        required: true,
+        required: false,
         default: Date.now
     },
     text: {

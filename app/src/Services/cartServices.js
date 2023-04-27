@@ -18,33 +18,36 @@ export default class CartServices {
         }
     }
 
-    async getCartById(cartId){
+    async getCartByUsername(username){
         try {
-            const cartById = await cartDao.getCartById(cartId);
-            return cartById
+            const cartByUsername = await cartDao.getCartByUsername(username);
+            console.log(cartByUsername)
+            return cartByUsername
         } catch (error) {
             loggerError.error(`Error en el carrito: ${error}`)
         }
     }
 
 
-    async createCart(data, tokenHeader) {
+    async createCart(userSession) {
         try{
-            const user = await authDao.getUserByToken(tokenHeader) 
-            cart.user = user.username
-            cart.address = user.address
-            cart.timestamp = moment().format('L LTS')
-            cart.products = []
-            const newCart = await cartDao.createCart(cart)
+            const user = await authDao.userExistsByUsername(userSession) 
+            const cart = {
+                user: user.username,
+                address: user.address,
+                timestamp: moment().format('L LTS'),
+                products: []}
+            
+                const newCart = await cartDao.createCart(cart)
             return newCart
         } catch(error) {
             loggerError.error(`No se pudo crear el nuevo carrito: ${error}`)
         }
     }
 
-    async deleteCart(cartId) {
+    async deleteCart(user) {
         try {
-            const deletedCart = await cartDao.deleteCart(cartId);
+            const deletedCart = await cartDao.deleteCart(user);
             return deletedCart
         }catch(error){
             loggerError.error(`No se pudo elimiar el nuevo carrito: ${error}`)
@@ -61,14 +64,14 @@ export default class CartServices {
         }
     }
 
-    async addProductInCart(cartId, prodId, qty) {
+    async addProductInCart(user, productId, qty) {
         try {
-            const productById = await prodDao.getProdctById(prodId);
-            if (productById.idProduct === null) {
+            const productById = await prodDao.getProdctById(productId);
+            if (productById.productId === null) {
                 logger.warn('Producto no encontrado')
             }
             const addProd = {
-                productId: prodId, 
+                productId: productId, 
                 name: productById.name,
                 description: productById.description,
                 category: productById.category,
@@ -76,7 +79,7 @@ export default class CartServices {
                 qty: qty,
                 totalPrice: productById.price * qty
             }
-            const cartUpdated = await cartDao.addProductInCart(cartId, addProd)
+            const cartUpdated = await cartDao.addProductInCart(user, addProd)
             return cartUpdated
 
         }catch(error){

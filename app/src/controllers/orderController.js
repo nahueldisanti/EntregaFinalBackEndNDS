@@ -5,20 +5,15 @@ export default class OrderController {
 
     async generateOrder(req, res){
         try{
-            const order = await orderServices.generateOrder(req.body.cartId)
-            res.status(200).json(order)
+            const currentSession = req.session.passport.user
+            const order = await orderServices.newOrder(currentSession)
+            const orderProducts = order.products
+            res.status(200).render('order',{
+                orderProducts,
+                currentSession
+            })
         } catch (error) {
             res.status(500).json({message: error.message})
         }
     }
-
-    async getAllOrders(req, res){
-        try{
-            const orders = await orderServices.getAllOrders()
-            res.status(200).json(orders)
-        } catch (error) {
-            res.status(500).json({message: error.message})
-        }
-    }
-
 }

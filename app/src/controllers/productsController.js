@@ -6,8 +6,12 @@ export default class ProductsController {
 
     async getAll(req, res) {
         try{
+            const currentSession = req.session.passport.user
             const products = await productsServices.getAllProducts()
-            res.render('products', products)
+            res.render('products', {
+                products,
+                currentSession
+            })
         }catch(error) {
             loggerError.error (error)
         }
@@ -15,6 +19,7 @@ export default class ProductsController {
 
     async getProdById(req, res) {
         try{
+            const currentSession = req.session.passport.user
             const productById = await productsServices.getProdctById(req.params.id);
             if(productById != undefined) {
                 return res.json(productById)
@@ -28,8 +33,9 @@ export default class ProductsController {
 
     async addProduct(req, res) {
         try{
-            const productAdded = await productDao.addProduct(req.body);
-            res.json(productAdded)
+            const product = req.body
+            const productAdded = await productsServices.addProduct(product);
+            return res.redirect('/products')
         }catch(error) {
             loggerError.error (error)
         }
@@ -55,9 +61,13 @@ export default class ProductsController {
 
     async getProductByCategory(req, res) {
         try{
-            const productByCategory = await productsServices.getProductByCategory(req.params.category);
-            if(productByCategory != undefined) {
-                return res.json(productByCategory)
+            const currentSession = req.session.passport.user
+            const products = await productsServices.getProductByCategory(req.params.category);
+            if(products != undefined) {
+                return res.render('products',
+                    {products,
+                    currentSession
+                    })
             } else {
                 return res.json({error: error.message})
             }

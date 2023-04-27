@@ -1,31 +1,40 @@
 import CartServices from "../Services/cartServices.js"
 const cartServices = new CartServices()
 
+
 export default class cartController {
 
     async getAllCarts(req, res) {
         try {
-            const allCarts = await cartServices.getAllCarts()
-            res.status(200).json(allCarts)
+            const userSession = req.session.passport.user
+            const cart = await cartServices.getAllCarts()
+            res.status(200).render('cart', {
+            userSession, 
+            cart})
         } catch (error) {
             res.status(500).json({error: error.message})
         }
     }
 
-    async getCartById(req, res){
+    async getCartByUsername(req, res){
         try {
-            const cartById = await cartServices.getCartById(req.params.id);
-            res.status(200).json(cartById)
+            const currentSession = req.session.passport.user
+            const cartByUsername = await cartServices.getCartByUsername(currentSession);
+            const cartProducts = cartByUsername[0].products
+            res.status(200).render('cart', {
+            currentSession,
+            cartProducts})
         } catch (error) {
-            loggerError.error(`Error en el carrito: ${error}`)
+            res.send(`Error en el carrito: ${error}`)
         }
     }
 
     async createCart(req, res) {
         try {
-            const tokenHeader = req.headers.authorization || req.body.token || req.query.token || req.headers['x-access-token'];
-            const newCart = await cartServices.createCart(req.body, tokenHeader) 
-            res.status(200).json(newCart)
+            const userSession = req.session.passport.user
+            const newCart = await cartServices.createCart(userSession)
+            console.log('Carrito Creado')
+            res.status(200).redirect('/products')
         }catch (error) {
             res.status(500).json({error: error.message})
         }
@@ -33,7 +42,8 @@ export default class cartController {
 
     async deleteCart(req, res) {
         try {
-            const deleteCart = await cartServices.deleteCart(req.params.id)
+            const user = req.session.passport.user
+            const deleteCart = await cartServices.deleteCart(user)
             res.status(200).json(deleteCart)
         }catch (error) {
             res.status(500).json({error: error.message})
@@ -51,10 +61,11 @@ export default class cartController {
 
     async addProductInCart(req, res) {
         try {
+            const user = req.session.passport.user
             const qty = parseInt(req.body.qty)
-            const cartId = req.params.id
-            const addProduct = await cartServices.addProductInCart(cartId, req.body.prodId, qty)
-            res.status(200).json(addProduct)
+            const productId = req.params.id
+            const addProduct = await cartServices.addProductInCart(user, productId, qty)
+            res.status(200).redirect('/products')
         }catch (error) {
             res.status(500).json({error: error.message})
         }

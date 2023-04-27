@@ -12,13 +12,4 @@ export default class OrderDao {
         }
     }
 
-    async getAllOrders() {
-        try{
-            const allOrders = await order.find({})
-            return allOrders
-        }catch (error) {
-            loggerError.error(error)
-        }
-    }
-
 }

@@ -5,8 +5,8 @@ export default class MessagesDao {
 
     async getAllMessages() {
         try {
-            const messages = await messages.find({});
-            return messages
+            const allMessages = await messages.find({});
+            return allMessages
         } catch(error) {
             loggerError.error(error)
         }

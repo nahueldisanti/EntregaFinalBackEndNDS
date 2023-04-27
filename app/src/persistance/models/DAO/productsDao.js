@@ -6,7 +6,6 @@ export default class ProductsDao {
     async getAllProducts() {
         try{
             const products = await product.find({});
-            console.log(products)
             return products
         }catch(error) {
             loggerError.error (error)
@@ -22,10 +21,11 @@ export default class ProductsDao {
         }
     }
 
-    async addProduct(product) {
+    async addProduct(addProduct) {
         try{
-            const addedProduct = await product(product).save();
-            return addProduct
+            const addedProduct = await product(addProduct).save();
+            console.log(`Dao: ${productAdded}`)
+            return addedProduct
 
         }catch(error) {
             loggerError.error (error)

@@ -9,45 +9,28 @@ const cartDao = new CartDao();
 import sendMail from '../utils/nodemailers.js'
 
 
+
 export default class OrderServices {
-    async newOrder(cartId, email) {
+    async newOrder(currentSession) {
         try{
-            const cartById = await cartDao.getCartById(cartId);
-            const orders = await orderDao.getAllOrders();y
-            let numOrder = 0
-            if (orders.length === 0){
-                numOrder = 1
-            } else {
-                const lastOrder = orders[orders.length -1]
-                numOrder = lastOrder.numberOrder + 1
+            const cartByUsername = await cartDao.getCartByUsername(currentSession);
+            const cart = cartByUsername[0]
+            console.log(`Cart By Username:${cartByUsername}`)
+            const newOrder = {
+                orderState: 'Generada',
+                timestamp: moment().format('MMMM Do YYYY, h:mm:ss a'),
+                user: cart.user,
+                address: cart.address,
+                products: cart.products 
             }
-            if(cartById){
-                const newOrder = {
-                    numberOrder: numOrder, 
-                    stateOrder: 'Generada',
-                    timestamp: moment().format('MMMM Do YYYY, h:mm:ss a'),
-                    user: cartById.user,
-                    address: cartById.address,
-                    products: cartById.products 
-                }
-                const createdOrder = await orderDao.generateOrder(newOrder);
-                sendMail(newOrder);
-                return createdOrder
-            } else {
-                loggerWarn.warn('El carrito no pudo checkearse')
-            }
+            console.log(newOrder)
+            const createdOrder = await orderDao.newOrder(newOrder);
+            sendMail(newOrder);
+            cartDao.deleteCart();
+            return createdOrder
+            
         }catch (error) { 
             loggerError.error(error)
         }
     }
-
-    async getAllOrders() {
-        try{
-            const orders = await orderDao.getAllOrders()
-            return orders
-        } catch (error) {
-            loggerError.error(error)
-        }
-    }
-
 }

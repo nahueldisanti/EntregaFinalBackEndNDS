@@ -4,11 +4,11 @@ const cartController = new CartController()
 
 const cartRoute = Router();
 
-cartRoute.get('/', cartController.getAllCarts)
-cartRoute.post('/',  cartController.createCart)
-cartRoute.delete('/:id',  cartController.deleteCart)
+cartRoute.get('/', cartController.getCartByUsername)
+cartRoute.get('/create',  cartController.createCart)
+cartRoute.delete('/:id/delete',  cartController.deleteCart)
 cartRoute.get('/:id/products',  cartController.productsinCart)
-cartRoute.post('/:id/products', cartController.addProductInCart)
+cartRoute.get('/:id', cartController.addProductInCart)
 cartRoute.delete('/:idcart/products/:idprod', cartController.deleteProductInCart)
 
 export default cartRoute

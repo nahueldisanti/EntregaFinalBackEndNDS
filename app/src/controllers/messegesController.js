@@ -6,9 +6,12 @@ export default class MessagesController {
 
     async getAllMessages(req, res) {
         try{
+            const currentSession = req.session.passport.user
             const allMessages = await messagesServices.getAllMessages();
-            res.json(allMessages);
-            return res.render('chats.ejs', {allMesseges})
+            
+            return res.render('chats.ejs', {
+                allMessages,
+                currentSession})
 
         }catch(error){
             loggerError.error(error)

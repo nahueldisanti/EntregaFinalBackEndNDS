@@ -1,0 +1,44 @@
+<div class="container mt-4">
+    <h1>Agregar un nuevo Producto</h1>
+    <div class="row">
+        <div class="col-sm-8 col-lg-4 col-md-6">
+            <form class="form" action="/products" method="post" role="form" autocomplete="off">
+                <legend>Ingrese los datos:</legend>
+                <div class="form-group mt-4">
+                    <input id="name" name='name' placeholder="Nombre Producto" class="form-control" type="text" required autofocus>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input id="price" name='price' placeholder="Precio Unitario" class="form-control" type="number" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input id="image" name='image' placeholder="Url a la imagen" class="form-control" type="text" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="form-control" for="category">Categoria: </label>
+                    <select name="category" id="category" type = "text" required>
+                        <option value="Electrodomesticos">Electrodomesticos</option>
+                        <option value="Muebles Jardin">Muebles Jardin</option>
+                        <option value="Muebles Interior">Muebles Interior</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input id="description" name='description' placeholder="Descrpicion" class="form-control" type="text" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input id="stock" name='stock' placeholder="Stock" class="form-control" type="number" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <div class="d-grid gap-2">
+                        <input class="btn btn-danger" type="submit" value="Agregar Producto">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
