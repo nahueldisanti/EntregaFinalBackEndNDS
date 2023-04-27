@@ -1,157 +1,4 @@
-[2023-04-16T20:25:02.854] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:43:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
-[2023-04-21T00:52:14.443] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
-[2023-04-21T01:04:54.776] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
-[2023-04-21T01:09:20.766] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:16:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
-[2023-04-21T01:11:41.403] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:17:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
-[2023-04-21T01:12:17.075] [ERROR] categError - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:695:11)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:18:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:45:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
-[2023-04-21T01:25:11.625] [ERROR] categError - TypeError: productsServices.getAll is not a function
-    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-21T01:26:25.864] [ERROR] categError - TypeError: productsServices.getAll is not a function
-    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-21T01:27:02.958] [ERROR] categError - TypeError: productsServices.getAll is not a function
-    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-21T01:27:09.498] [ERROR] categError - TypeError: productsServices.getAll is not a function
-    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:53)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-23T21:32:46.647] [ERROR] categError - CastError: Cast to string failed for value "{ username: 'pablo10' }" (type Object) at path "username" for model "User"
-    at model.Query.exec (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:4933:21)
-    at Query.then (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:5032:15)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
-  messageFormat: undefined,
-  stringValue: `"{ username: 'pablo10' }"`,
-  kind: 'string',
-  value: { username: 'pablo10' },
-  path: 'username',
-  reason: null,
-  valueType: 'Object'
-}
-[2023-04-23T21:37:19.874] [ERROR] categError - CastError: Cast to string failed for value "{ username: 'ndisanti' }" (type Object) at path "username" for model "User"
-    at model.Query.exec (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:4933:21)
-    at Query.then (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:5032:15)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
-  messageFormat: undefined,
-  stringValue: `"{ username: 'ndisanti' }"`,
-  kind: 'string',
-  value: { username: 'ndisanti' },
-  path: 'username',
-  reason: null,
-  valueType: 'Object'
-}
-[2023-04-24T00:22:33.254] [ERROR] categError - ReferenceError: res is not defined
-    at Strategy._verify (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/registerController.js:46:9)
-    at Strategy.authenticate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\passport-local\lib\strategy.js:88:12)
-    at attempt (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\passport\lib\middleware\authenticate.js:369:16)
-    at authenticate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\passport\lib\middleware\authenticate.js:370:7)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-[2023-04-24T01:41:05.065] [ERROR] categError - ReferenceError: Cannot access 'user' before initialization
-    at AuthDao.register (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/authDao.js:29:26)
-    at Strategy._verify (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/registerController.js:79:27)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-24T01:41:58.985] [ERROR] categError - ReferenceError: Cannot access 'user' before initialization
-    at AuthDao.register (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/authDao.js:29:26)
-    at Strategy._verify (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/registerController.js:79:27)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-24T01:46:24.495] [ERROR] categError - Error: User validation failed: email: Path `email` is required., address: Path `address` is required., phone: Path `phone` is required.
+[2023-04-26T23:16:54.091] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -163,46 +10,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    email: ValidatorError: Path `email` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'email',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    address: ValidatorError: Path `address` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    phone: ValidatorError: Path `phone` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'phone',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'User validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-24T01:47:58.758] [ERROR] categError - Error: User validation failed: email: Path `email` is required.
+[2023-04-26T23:16:56.235] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -214,114 +49,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    email: ValidatorError: Path `email` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'email',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    username: ValidatorError: Path `username` is required.
+        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'User validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-24T18:55:37.842] [ERROR] categError - Error en el login
-[2023-04-25T00:46:18.178] [ERROR] categError - Contraseña invalida
-[2023-04-25T00:46:18.191] [ERROR] categError - Error en el login
-[2023-04-25T00:47:41.947] [ERROR] categError - Contraseña invalida
-[2023-04-25T00:47:41.959] [ERROR] categError - Error en el login
-[2023-04-25T00:48:31.457] [ERROR] categError - Contraseña invalida
-[2023-04-25T00:48:31.467] [ERROR] categError - Error en el login
-[2023-04-25T02:05:43.834] [ERROR] categError - Error en el carrito: ReferenceError: cartModel is not defined
-[2023-04-25T02:06:05.879] [ERROR] categError - ReferenceError: Cannot access 'messages' before initialization
-    at MessagesDao.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/messageDao.js:8:30)
-    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:11:50)
-    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:56)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-[2023-04-25T02:06:05.880] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'length')
-    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:12:29)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:33)
-[2023-04-25T02:06:05.881] [ERROR] categError - ReferenceError: allMesseges is not defined
-    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:11:45)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T15:41:53.417] [ERROR] categError - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7)
-[2023-04-26T15:41:53.444] [ERROR] categError - Error en el login
-[2023-04-26T15:42:13.703] [ERROR] categError - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7)
-[2023-04-26T15:42:13.733] [ERROR] categError - Error en el login
-[2023-04-26T15:44:24.246] [ERROR] categError - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7)
-[2023-04-26T15:45:11.842] [ERROR] categError - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
-    at Connection.openUri (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\connection.js:825:32)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:414:10
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
-    at new Promise (<anonymous>)
-    at promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
-    at Mongoose._promiseOrCallback (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:1288:10)
-    at Mongoose.connect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\index.js:413:20)
-    at MongoClient.connect (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/db/dbConnection.js:17:31)
-    at file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/server.js:67:4
-    at ModuleJob.run (node:internal/modules/esm/module_job:193:25) {
-  reason: TopologyDescription {
-    type: 'ReplicaSetNoPrimary',
-    servers: Map(3) {
-      'ac-klvfnau-shard-00-00.q2ihkcn.mongodb.net:27017' => [ServerDescription],
-      'ac-klvfnau-shard-00-01.q2ihkcn.mongodb.net:27017' => [ServerDescription],
-      'ac-klvfnau-shard-00-02.q2ihkcn.mongodb.net:27017' => [ServerDescription]
-    },
-    stale: false,
-    compatible: true,
-    heartbeatFrequencyMS: 10000,
-    localThresholdMS: 15,
-    setName: 'atlas-czuztb-shard-0',
-    maxElectionId: null,
-    maxSetVersion: null,
-    commonWireVersion: 0,
-    logicalSessionTimeoutMinutes: null
-  },
-  code: undefined
-}
-[2023-04-26T15:57:40.471] [ERROR] categError - ReferenceError: productDao is not defined
-    at addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:33:34)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-26T15:59:38.844] [ERROR] categError - TypeError: product is not a function
-    at ProductsDao.addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/productsDao.js:27:40)
-    at ProductServices.addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/productsService.js:38:51)
-    at addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:33:57)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-[2023-04-26T16:02:23.451] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:30.766] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -333,82 +88,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T16:04:39.368] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:32.011] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -420,82 +127,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T16:04:57.158] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:32.386] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -507,82 +166,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T16:10:06.160] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:33.292] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -594,82 +205,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T16:11:12.625] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:34.179] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -681,82 +244,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T16:11:37.686] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:34.741] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -768,82 +283,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T16:12:25.546] [ERROR] categError - Error: Product validation failed: name: Path `name` is required., price: Path `price` is required., image: Path `image` is required., category: Path `category` is required., description: Path `description` is required., stock: Path `stock` is required.
+[2023-04-26T23:18:35.316] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -855,82 +322,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'name',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    price: ValidatorError: Path `price` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'price',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    image: ValidatorError: Path `image` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'image',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    category: ValidatorError: Path `category` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'category',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    description: ValidatorError: Path `description` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'description',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    stock: ValidatorError: Path `stock` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'stock',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T17:26:38.696] [ERROR] categError - Error: Product validation failed: image: Path `image` is required., description: Path `description` is required.
+[2023-04-26T23:18:44.200] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -942,44 +361,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    image: ValidatorError: Path `image` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'image',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    description: ValidatorError: Path `description` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'description',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T17:26:38.706] [ERROR] categError - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:387:5)
-    at ServerResponse.setHeader (node:_http_outgoing:603:11)
-    at ServerResponse.header (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\response.js:794:10)
-    at ServerResponse.location (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\response.js:915:15)
-    at ServerResponse.redirect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\response.js:953:18)
-    at addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:35:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
-  code: 'ERR_HTTP_HEADERS_SENT'
-}
-[2023-04-26T17:28:43.779] [ERROR] categError - Error: Product validation failed: description: Path `description` is required.
+[2023-04-26T23:18:45.151] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -991,300 +400,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    description: ValidatorError: Path `description` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'description',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    username: ValidatorError: Path `username` is required.
+        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Product validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T17:28:43.784] [ERROR] categError - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:387:5)
-    at ServerResponse.setHeader (node:_http_outgoing:603:11)
-    at ServerResponse.header (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\response.js:794:10)
-    at ServerResponse.location (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\response.js:915:15)
-    at ServerResponse.redirect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\response.js:953:18)
-    at addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:34:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
-  code: 'ERR_HTTP_HEADERS_SENT'
-}
-[2023-04-26T17:36:43.261] [ERROR] categError - ReferenceError: productAdded is not defined
-    at ProductsDao.addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/productsDao.js:27:33)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async ProductServices.addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/productsService.js:38:34)
-    at async addProduct (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:32:34)
-[2023-04-26T17:44:38.733] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'username')
-    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:57)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-26T17:45:14.221] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'user')
-    at getAll (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:9:57)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-    at router (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:47:12)
-[2023-04-26T17:54:48.278] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:54:52.896] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:54:54.622] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:54:56.265] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:02.948] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:04.325] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:04.938] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:05.432] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:06.753] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:07.150] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:07.447] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:55:08.433] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:69:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:56:25.446] [ERROR] categError - ReferenceError: currenSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:68:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T17:57:13.908] [ERROR] categError - ReferenceError: currentSession is not defined
-    at getProductByCategory (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:68:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T19:23:53.108] [ERROR] categError - No se pudo crear el nuevo carrito: ReferenceError: cart is not defined
-[2023-04-26T19:28:17.576] [ERROR] categError - No se pudo crear el nuevo carrito: ReferenceError: cart is not defined
-[2023-04-26T19:47:33.157] [ERROR] categError - TypeError: productsServices.getProdctById is not a function
-    at getProdById (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/productsController.js:23:56)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at param (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:365:14)
-    at param (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:376:14)
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:421:3)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-[2023-04-26T19:48:33.039] [ERROR] categError - ReferenceError: Cannot access 'messages' before initialization
-    at MessagesDao.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/messageDao.js:8:30)
-    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:11:50)
-    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:56)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-[2023-04-26T19:48:33.040] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'length')
-    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:12:29)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:33)
-[2023-04-26T19:48:33.042] [ERROR] categError - ReferenceError: allMesseges is not defined
-    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:11:45)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[2023-04-26T19:57:05.670] [ERROR] categError - ReferenceError: Cannot access 'messages' before initialization
-    at MessagesDao.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/messageDao.js:8:30)
-    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:11:50)
-    at getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:56)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-[2023-04-26T19:57:05.674] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'length')
-    at MessagesServices.getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/messageServices.js:12:29)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async getAllMessages (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/messegesController.js:9:33)
-[2023-04-26T20:00:39.894] [ERROR] categError - No existen mensajes
-[2023-04-26T20:14:48.520] [ERROR] categError - Error en el carrito: ReferenceError: cartModel is not defined
-[2023-04-26T20:21:31.699] [ERROR] categError - Error en el carrito: ReferenceError: cartModel is not defined
-[2023-04-26T20:28:09.173] [ERROR] categError - Error en el carrito: CastError: Cast to ObjectId failed for value "ndisanti" (type string) at path "_id" for model "Cart"
-[2023-04-26T20:33:23.739] [ERROR] categError - No pudimos encontrar los productos del carrito con ID: 6449789a2ce65788b5784b50: TypeError: Cannot read properties of null (reading 'productos')
-[2023-04-26T20:33:23.745] [ERROR] categError - No pudimos encontrar los productos del carrito con ID: 6449789a2ce65788b5784b50: TypeError: Cannot read properties of undefined (reading 'products')
-[2023-04-26T20:38:01.228] [ERROR] categError - No pudimos encontrar los productos del carrito con ID: 6449789a2ce65788b5784b50: TypeError: Cannot read properties of null (reading 'productos')
-[2023-04-26T20:38:01.229] [ERROR] categError - No pudimos encontrar los productos del carrito con ID: 6449789a2ce65788b5784b50: TypeError: Cannot read properties of undefined (reading 'products')
-[2023-04-26T20:46:46.773] [ERROR] categError - No pudimos encontrar los productos del carrito con ID: 6449789a2ce65788b5784b50: TypeError: Cannot read properties of null (reading 'productos')
-[2023-04-26T20:46:46.774] [ERROR] categError - No pudimos encontrar los productos del carrito con ID: 6449789a2ce65788b5784b50: TypeError: Cannot read properties of undefined (reading 'products')
-[2023-04-26T21:21:28.792] [ERROR] categError - ReferenceError: prodId is not defined
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:73:28)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:22:55.780] [ERROR] categError - TypeError: cart.findByUsername is not a function
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:56:47)
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:47)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:23:57.466] [ERROR] categError - ReferenceError: cartById is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:58:31)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:24:18.167] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:58:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:24:24.317] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:58:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:25:35.284] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:59:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:27:40.635] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:59:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:28:37.124] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:59:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:29:55.832] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:60:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:33:37.435] [ERROR] categError - ReferenceError: getCartByUsername is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:57:36)
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:47)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:34:19.539] [ERROR] categError - ReferenceError: find is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:57:36)
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:47)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:34:45.688] [ERROR] categError - ReferenceError: username is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:57:52)
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:47)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:35:05.632] [ERROR] categError - ObjectParameterError: Parameter "filter" to find() must be an object, got usuario
-    at Query.find (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\query.js:2374:16)
-    at Function.find (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:2275:13)
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:57:47)
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:47)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:35:39.863] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:60:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:36:16.033] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:60:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:37:16.157] [ERROR] categError - ReferenceError: Cannot access 'cart' before initialization
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:57:36)
-    at CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:47)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:37:55.746] [ERROR] categError - TypeError: Cannot read properties of undefined (reading 'find')
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:61:55)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:41:13.117] [ERROR] categError - ReferenceError: cartById is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:70:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:41:48.318] [ERROR] categError - ReferenceError: cartModel is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:75:32)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:63:32)
-[2023-04-26T21:46:43.921] [ERROR] categError - ReferenceError: cartById is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:68:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:64:32)
-[2023-04-26T21:47:18.207] [ERROR] categError - ReferenceError: cartById is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:68:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:64:32)
-[2023-04-26T21:47:39.506] [ERROR] categError - Error en el login
-[2023-04-26T21:47:55.139] [ERROR] categError - ReferenceError: cartById is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:68:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:64:32)
-[2023-04-26T21:48:50.753] [ERROR] categError - ReferenceError: cartById is not defined
-    at CartDao.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/cartDao.js:68:21)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async CartServices.addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/cartServices.js:81:33)
-    at async addProductInCart (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/cartController.js:64:32)
-[2023-04-26T22:25:33.069] [ERROR] categError - ReferenceError: currentSession is not defined
-    at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:15:68)
-    at generateOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/orderController.js:9:47)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-[2023-04-26T22:30:41.393] [ERROR] categError - ReferenceError: currentSession is not defined
-    at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:15:68)
-    at generateOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/orderController.js:9:47)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:346:12)
-    at next (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:280:10)
-    at Function.handle (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\express\lib\router\index.js:175:3)
-[2023-04-26T22:31:34.764] [ERROR] categError - TypeError: orderDao.generateOrder is not a function
-    at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:24:53)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async generateOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/controllers/orderController.js:9:27)
-[2023-04-26T22:32:05.325] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:32:05 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
+[2023-04-26T23:19:03.616] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -1296,84 +439,34 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:32:05 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:24:53) {
-      stringValue: '"April 26th 2023, 10:32:05 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:32:05 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'orderState',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    user: ValidatorError: Path `user` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Order validation failed'
+  _message: 'Messages validation failed'
 }
-[2023-04-26T22:32:45.306] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:32:45 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
+[2023-04-26T23:19:05.538] [ERROR] categError - Error: Messages validation failed: text: Path `text` is required., username: Path `username` is required.
     at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
     at formatValue (node:internal/util/inspect:790:19)
     at inspect (node:internal/util/inspect:350:10)
@@ -1385,744 +478,30 @@
     at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
     at Array.forEach (<anonymous>) {
   errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:32:45 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:24:53) {
-      stringValue: '"April 26th 2023, 10:32:45 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:32:45 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
+    text: ValidatorError: Path `text` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'orderState',
+      path: 'text',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     },
-    user: ValidatorError: Path `user` is required.
+    username: ValidatorError: Path `username` is required.
         at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
         at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
         at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
         at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: [Object],
       kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
+      path: 'username',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:35:04.335] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:35:04 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:35:04 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:25:53) {
-      stringValue: '"April 26th 2023, 10:35:04 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:35:04 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    user: ValidatorError: Path `user` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:36:17.847] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:36:17 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:36:17 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:25:53) {
-      stringValue: '"April 26th 2023, 10:36:17 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:36:17 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    user: ValidatorError: Path `user` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:36:58.458] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:36:58 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:36:58 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:25:53) {
-      stringValue: '"April 26th 2023, 10:36:58 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:36:58 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    user: ValidatorError: Path `user` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:38:32.704] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:38:32 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:38:32 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:24:49) {
-      stringValue: '"April 26th 2023, 10:38:32 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:38:32 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    user: ValidatorError: Path `user` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:41:38.262] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:41:38 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:41:38 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:24:49) {
-      stringValue: '"April 26th 2023, 10:41:38 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:41:38 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    user: ValidatorError: Path `user` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:42:06.297] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:42:06 pm" (type string) at path "timestamp", orderState: Path `orderState` is required., user: Path `user` is required., address: Path `address` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:42:06 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:25:49) {
-      stringValue: '"April 26th 2023, 10:42:06 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:42:06 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    user: ValidatorError: Path `user` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'user',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    address: ValidatorError: Path `address` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'address',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:42:49.342] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:42:49 pm" (type string) at path "timestamp", orderState: Path `orderState` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:42:49 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:26:49) {
-      stringValue: '"April 26th 2023, 10:42:49 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:42:49 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
-}
-[2023-04-26T22:44:56.969] [ERROR] categError - Error: Order validation failed: timestamp: Cast to date failed for value "April 26th 2023, 10:44:56 pm" (type string) at path "timestamp", orderState: Path `orderState` is required.
-    at ValidationError.inspect (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
-    at formatValue (node:internal/util/inspect:790:19)
-    at inspect (node:internal/util/inspect:350:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2241:40)
-    at Object.format (node:internal/util/inspect:2098:10)
-    at basicLayout (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\layouts.js:65:52)
-    at app (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
-    at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\log4js\lib\log4js.js:43:5
-    at Array.forEach (<anonymous>) {
-  errors: {
-    timestamp: CastError: Cast to date failed for value "April 26th 2023, 10:44:56 pm" (type string) at path "timestamp"
-        at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:354:11)
-        at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-        at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-        at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-        at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-        at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-        at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-        at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36)
-        at OrderServices.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/Services/orderServices.js:26:49) {
-      stringValue: '"April 26th 2023, 10:44:56 pm"',
-      messageFormat: undefined,
-      kind: 'date',
-      value: 'April 26th 2023, 10:44:56 pm',
-      path: 'timestamp',
-      reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
-      
-        assert.ok(false)
-      
-          at castDate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\cast\date.js:40:10)
-          at SchemaDate.cast (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schema\date.js:352:12)
-          at SchemaType.applySetters (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1424:22)
-          at model.$set (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:1149:16)
-          at model.Document (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:164:12)
-          at model.Model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:123:12)
-          at new model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5178:15)
-          at model (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\model.js:5173:16)
-          at OrderDao.newOrder (file:///C:/Users/Usuario/Desktop/CoderHouse/BackEnd/ProyectoFinalBackEnd/app/src/persistance/models/DAO/orderDao.js:8:36) {
-        generatedMessage: true,
-        code: 'ERR_ASSERTION',
-        actual: false,
-        expected: true,
-        operator: '=='
-      },
-      valueType: 'string'
-    },
-    orderState: ValidatorError: Path `orderState` is required.
-        at validate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
-        at SchemaType.doValidate (C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
-        at C:\Users\Usuario\Desktop\CoderHouse\BackEnd\ProyectoFinalBackEnd\node_modules\mongoose\lib\document.js:2933:18
-        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: [Object],
-      kind: 'required',
-      path: 'orderState',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Order validation failed'
+  _message: 'Messages validation failed'
 }

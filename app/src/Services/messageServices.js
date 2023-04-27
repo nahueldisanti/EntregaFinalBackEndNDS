@@ -19,9 +19,9 @@ export default class MessagesServices {
         }
     }
 
-    async getMessageByEmail(email) {
+    async getMessageByEmail(username) {
         try {
-            const messageByEmail = await messageDao.getMessagesByUser(email)
+            const messageByEmail = await messageDao.getMessagesByUser(username)
             if(messageByEmail.length() > 0) {
                 return messageByEmail
             } else {
@@ -32,12 +32,15 @@ export default class MessagesServices {
         }
     }
 
-    async saveMessage(message, email) {
+    async saveMessage(textMessage, username) {
         try {
-            message.timestamp = moment().format('L LTS')
-            message.email = email
-            const newMessage = await messageDao.saveMessage(message)
-            return newMessage
+            const newMessage = {
+                timestamp: moment().format('L LTS'),
+                text:textMessage, 
+                username: username
+            }
+            const saveMessage = await messageDao.saveMessage(newMessage)
+            return saveMessage
         }catch(error){
             loggerError.error(error)
         }

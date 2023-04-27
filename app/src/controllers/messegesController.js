@@ -20,20 +20,10 @@ export default class MessagesController {
 
     async getMessageByEmail(req, res) {
         try {
-            const messageByEmail = await messagesServices.getMessagesByUser(req.params.email)
+            const currentSession = req.session.passport.user
+            const messageByEmail = await messagesServices.getMessagesByUser(currentSession)
             res.json(messageByEmail)
         }catch(error){
             loggerError.error(error)
         }
-    }
-
-    async saveMessage(req, res) {
-        try {
-            const email = req.email
-            const savedMessage = await messagesServices.saveMessage(req.body, email);
-            res.json(savedMessage)
-        }catch(error){
-            loggerError.error(error)
-        }
-    }
-}
+    }}

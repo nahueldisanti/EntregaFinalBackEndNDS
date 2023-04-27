@@ -4,7 +4,6 @@ const messagesController = new MessagesController();
 const messagesRoute = Router();
 
 messagesRoute.get('/',  messagesController.getAllMessages);
-messagesRoute.get('/:email',  messagesController.getMessageByEmail);
-messagesRoute.post('/',  messagesController.saveMessage);
+//messagesRoute.get('/:email',  messagesController.getMessageByEmail);
 
 export default messagesRoute

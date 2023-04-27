@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const messages = mongoose.model('Messages', new mongoose.Schema({
-    email: {
+    username: {
         type: String,
         required: true
     },

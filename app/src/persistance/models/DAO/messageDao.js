@@ -12,10 +12,10 @@ export default class MessagesDao {
         }
     }
 
-    async getMessagesByUser(user) {
+    async getMessagesByUser(username) {
         try {
-            const messagesByUser = await messages.find({user: user});
-            return messages
+            const messagesByUser = await messages.find({username: username});
+            return messagesByUser
         } catch(error) {
             loggerError.error(error)
         }

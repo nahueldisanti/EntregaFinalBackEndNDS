@@ -20,23 +20,6 @@ import strategySignUp from "./src/controllers/registerController.js";
 
 const app = express();
 
-// app.use(session({
-//     store: MongoStore.create({
-//         mongoUrl: process.env.MONGODB,
-//         useNewUrlParser:true,
-//         udeUnifiedTopology: true
-//     }),
-//     secret: process.env.SECRET,
-//     cookie: {
-//         httpOnly: false,
-//         secure: false,
-//         maxAge: Number(process.env.TIEMPO_EXPIRACION)
-//     },
-//     rolling: false,
-//     resave: false,
-//     saveUninitialized: false
-// }));
-
 app.use(session({
     secret: process.env.SECRET,
     cookie: {
@@ -82,9 +65,8 @@ io.on('connection', async (socket) => {
 
     socket.emit('messages', await messagesServices.getAllMessages())
     
-    socket.on('newMessage', async data => {
-        await messagesServices.saveMessage(data);
-        
+    socket.on('newMessage', async (textMessage, username) => {
+        await messagesServices.saveMessage(textMessage, username);
         io.sockets.emit('messages', await messagesServices.getAllMessages())
     });
 })
